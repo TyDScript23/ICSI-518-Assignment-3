@@ -1,0 +1,46 @@
+[ 
+    {
+        "id": 1, 
+        "name": "Alto Saxophone",
+        "description": "A classic jazz instrument with a quality tone born from the early 20th century. Made in the heart of Salt Lake City, it has a clear and crisp sound. The slight peeling of the brass coating around the instrument gives an antique look sure to inspire nostalgia and give you the tool you need to become a well-trained jazz instrumentalist. ",
+        "condition": "Very Good", 
+        "price": 1200.00,
+        "image": "alto_saxophone.png"
+    },
+
+    {
+        "id": 2, 
+        "name": "Clarinet",
+        "description": "The peak of the classical style, this clarinet may have the mellow tone that you are looking for. Consisting of a finely crafted wood body, the sound is meticulously designed to give you an edge in classical playing. It may be challenging in some ways to play, but creates a reputable sound sought after by many professional classical ensembles. ",
+        "condition": "Excellent",
+        "price": 379.95,
+        "image": "clarinet.png"
+    }, 
+
+    {
+        "id": 3,
+        "name": "Flute", 
+        "description": "If you have ever heard the well-known musical arrangement \"Flight of the Bumblebee\", you would know the true extent and beauty that can come from this instrument. Catergorized by a bright sound, this instrument is played by blowing across the top of a hole in the mouth piece and pressing pads with your fingers to adjust pitch. No other instrument will bring tears to ones eyes quite like this one. ",
+        "condition": "Fair",
+        "price": 1150.00,
+        "image": "flute.png"
+    },
+
+    {
+        "id": 4,
+        "name": "Guitar",
+        "description": "One of the most well-known string instrument to date, this is sure to give you the ability to play music across donzens of modern genres. Being electric, the sound can be changed precisely to fit your style. The instrument is played by plucking strings with a pick or finger and using the vibrations to produce sound. Does include an amp and electrical cord to ensure that you get optimum sound. ",
+        "condition": "Excellent",
+        "price": 1199.99,
+        "image": "guitar.png"
+    }, 
+
+    {
+        "id": 5,
+        "name": "Piano",
+        "description": "This instrument has spanned the dawn of musical composure and has proved to be a relatively simple instrument to learn. An easy instrument for beginners that comes at a relatively cheap price, this can be a great choice for palyers of all ages. This instrument is modernixed with its own set of hundreds of sound presets and the ability to record and overlay musical tracks. With how much option this offers, its reliability shouldn't be underestimated. ",
+        "condition": "Good",
+        "price": 209.99,
+        "image": "piano.png"
+    }
+]

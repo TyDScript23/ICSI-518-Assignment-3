@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog with Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Item Catalog</h1>
+        <div class="cart">
+            <button id="cartButton">Cart (<span id="cartCount">0</span>)</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="catalog">
+            <div class="item">
+                <h2>Item 1</h2>
+                <p>Price: $10</p>
+                <button onclick="addToCart('Item 1', 10)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h2>Item 2</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Item 2', 20)">Add to Cart</button>
+            </div>
+            <div class="item">
+                <h2>Item 3</h2>
+                <p>Price: $15</p>
+                <button onclick="addToCart('Item 3', 15)">Add to Cart</button>
+            </div>
+        </section>
+
+        <section id="cartModal" class="hidden">
+            <h2>Your Cart</h2>
+            <div id="cartItems"></div>
+            <p>Total: $<span id="totalPrice">0</span></p>
+            <button onclick="clearCart()">Clear Cart</button>
+            <button onclick="checkout()">Checkout</button>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

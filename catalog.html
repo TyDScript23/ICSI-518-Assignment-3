@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <!-- 
+	
+	Project Name: Software Engineering - Assignment 2
+	Filename: catalog_2.html
+	
+	Author: Tyler Davis
+	Date Due: 05/11/2023
+ -->
+	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Catalog 2</title>
+    <link href="note_styles.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="cart-wishlist-container">
+		<a href="cart.html" class="cart-button">Cart</a>
+		<span class="total-count">0</span>
+		<a href="wishlist.html" class="wishlist-button">Wishlist</a>
+	</div>
+
+	<header>
+	  <img src="logo.png" alt="Company Logo" id="logo" />   
+      <h1>Inspiring Talented Musicians <em>Since</em> 2023</h1>
+	</header>
+	  
+      <nav class="horizontal">
+         <ul>
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="catalog.html">Instruments</a></li>
+			<li><a href="cart.html">Cart</a></li>
+			<li><a href="wishlist.html">Wishlist</a></li>
+         </ul>
+	 </nav>
+	 
+	<table>
+		<caption>Instrument Catalog</caption>
+		
+		<colgroup>
+			<col class="description" />
+			<col class="price" />
+			<col class="picture" />
+		</colgroup>
+		
+		<thead>
+			<tr>
+				<th>Item Description</th>
+				<th>Price</th>
+				<th>Image</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<td>
+					<h1>Alto Saxophone</h1>
+					<aside aria-label = "product_review_1">
+						<a href="#"><img src="5-stars.png" alt="5 stars" /></a>
+						<a href="#">723 reviews</a>
+					</aside>
+					
+					<p>
+						A classic jazz instrument with a quality tone
+					born from the early 20th century. Made in the heart of
+					Salt Lake City, it has a clear and crisp sound. The slight
+					peeling of the brass coating around the instrument gives
+					an antique look sure to inspire nostalgia and give you
+					the tool you need to become a well-trained jazz instrumentalist.
+					<br />
+					<br />
+					<div class="condition"> <strong>Condition: </strong> Very Good</div>
+					<button onclick="addToCart('1')" class="cart-button 1">Add to Cart</button>
+					<button class="wishlist-button 1">Add to Wishlist</button>
+					</p>
+				</td>
+				
+				<td class="amount">
+					$1200.00
+				</td>
+				
+				<td>
+					<img src="alto_saxophone.png" alt="Alto Saxophone"/>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<h1>Clarinet</h1>
+					
+					<aside aria-label="product_review_2">
+						<a href="#"><img src="4-stars.png" alt="4 stars" /></a>
+						<a href="#">594 reviews</a>
+					</aside>
+					
+					<p>
+						The peak of the classical style, this clarinet may have 
+					the mellow tone that you are looking for. Consisting of a 
+					finely crafted wood body, the sound is meticulously designed
+					to give you an edge in classical playing. It may be challenging
+					in some ways to play, but creates a reputable sound sought after
+					by many professional classical ensembles.
+					<br />
+					<br />
+					<div class="condition"> <strong>Condition: </strong> Excellent</div>
+					<button onclick="addToCart('2')" class="cart-button 2">Add to Cart</button>
+					<button class="wishlist-button 2">Add to Wishlist</button>
+					</p>
+				</td>
+				
+				<td class="amount">
+					$379.95
+				</td>
+				
+				<td>
+					<img src="clarinet.png" alt="Clarinet" />
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<h1>Flute</h1>
+					
+					<aside aria-label = "product_review_3">
+						<a href="#"><img src="3.5-stars.png" alt="3.5 stars" /></a>
+						<a href="#">618 reviews</a>
+					</aside>
+					
+					<p>
+						If you have ever heard the well-known musical arrangement
+					"Flight of the Bumblebee", you would know the true extent and
+					beauty that can come from this instrument. Catergorized by a bright
+					sound, this instrument is played by blowing across the top of a hole 
+					in the mouth piece and pressing pads with your fingers to adjust pitch.
+					No other instrument will bring tears to ones eyes quite like this one.
+					<br />
+					<br />
+					<div class="condition"> <strong>Condition: </strong> Fair</div>
+					<button onclick="addToCart('3')" class="cart-button 3">Add to Cart</button>
+					<button class="wishlist-button 3">Add to Wishlist</button>
+					</p>
+				</td>
+				
+				<td class="amount">
+					$1150.00
+				</td>
+				
+				<td>
+					<img src="flute.png" alt="Flute" />
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<h1>Guitar</h1>
+					
+					<aside aria-label = "product_review_4">
+						<a href="#"><img src="5-stars.png" alt="5 stars" /></a>
+						<a href="#">694 reviews</a>
+					</aside>
+					
+					<p>
+						One of the most well-known string instrument to date, 
+					this is sure to give you the ability to play music across
+					donzens of modern genres. Being electric, the sound can be 
+					changed precisely to fit your style. The instrument is played
+					by plucking strings with a pick or finger and using the vibrations
+					to produce sound. Does include an amp and electrical cord to 
+					ensure that you get optimum sound.
+					<br />
+					<br />
+					<div class="condition"> <strong>Condition: </strong> Excellent</div>
+					<button onclick="addToCart('4')" class="cart-button 4">Add to Cart</button>
+					<button class="wishlist-button 4">Add to Wishlist</button>
+					</p>
+				</td>
+				
+				<td class="amount">
+					$1199.99
+				</td>
+				
+				<td>
+					<img src="guitar.png" alt="Guitar" />
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<h1>Keyboard Piano</h1>
+					
+					<aside aria-label = "product_review_5">
+						<a href="#"><img src="4.5-stars.png" alt="4.5 stars" /></a>
+						<a href="#">814 reviews</a>
+					</aside>
+					
+					<p>
+						This instrument has spanned the dawn of musical composure
+					and has proved to be a relatively simple instrument to learn.
+					An easy instrument for beginners that comes at a relatively cheap
+					price, this can be a great choice for palyers of all ages. This instrument
+					is modernixed with its own set of hundreds of sound presets and the ability
+					to record and overlay musical tracks. With how much option this offers, 
+					its reliability shouldn't be underestimated.
+					<br />
+					<br />
+					<div class="condition"> <strong>Condition: </strong> Good</div>
+					<button onclick="addToCart('Item 5', 5)" class="cart-button 5">Add to Cart</button>
+					<button class="wishlist-button 5">Add to Wishlist</button>
+					</p>
+				</td>
+				
+				<td class="amount">
+					$209.99
+				</td>
+				
+				<td>
+					<img src="piano.png" alt="Piano" />
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<section class="results">
+		<a href="#">Show More Results</a>
+	</section>
+	<script src="script.js" async></script>
+</body>
+
+<footer>
+	&copy; 2023 &#183; Note Music Inc &#183; Phoenix, Arizona(AZ), 85017
+</footer>
+</html>
+
